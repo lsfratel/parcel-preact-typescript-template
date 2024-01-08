@@ -1,0 +1,23 @@
+{
+  "name": "parcel-preact-typescript-template",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "alias": {
+    "react": "preact/compat",
+    "react-dom/test-utils": "preact/test-utils",
+    "react-dom": "preact/compat",
+    "react/jsx-runtime": "preact/jsx-runtime",
+    "preact/jsx-dev-runtime": "preact/jsx-runtime"
+  },
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "preact": "^10.19.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "xo": "^0.56.0"
+  }
+}
